@@ -14,7 +14,7 @@ const NFTs=[];
 // NFT object using the parameters passed to it for its metadata, 
 // and store it in the variable above.
 function mintNFT (name,uid,course,year) {
-   constNFT={
+   const NFT={
       "name":name,
       "uid":uid,
       "course":course,
@@ -34,11 +34,11 @@ function listNFTs(){
 
 // print the total number of NFTs we have minted to the console
 function getTotalSupply(){
-   console.log(NFTS.length);
+   console.log(NFTs.length);
 }
 // call your functions below this line
 mintNFT("SHRUTI KASHYAP","22BCS14175","BE-CSE","THIRD");
 listNFTs();
 getTotalSupply();
-var Application_ID="22BCS14175";
-console.log("Application_ID="+application_ID);
+var application_ID="22BCS14175";
+console.log("Application_ID=" + application_ID);
